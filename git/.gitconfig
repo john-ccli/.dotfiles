@@ -1,0 +1,13 @@
+[user]
+	name = John Lynn
+	email = jlynn@ccli.com
+[help]
+	autocorrect = 5
+[alias]
+	dad = !curl -w \"\\n\" https://icanhazdadjoke.com/ && git add
+[difftool "default-difftool"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
