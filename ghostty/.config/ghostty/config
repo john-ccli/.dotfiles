@@ -3,3 +3,7 @@ font-family = Hack Nerd Font Mono
 font-size = 16
 background-opacity = 0.95
 auto-update = check
+background-image = "./hero.jpeg"
+background-image-opacity = 0.1
+background-image-fit = cover
+background-image-position=center-right
