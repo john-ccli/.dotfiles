@@ -7,3 +7,5 @@ background-image = "./hero.jpeg"
 background-image-opacity = 0.1
 background-image-fit = cover
 background-image-position=center-right
+copy-on-select = clipboard
+
