@@ -1,12 +1,9 @@
 # Unit Tests
 
-- Run unit tests with `npm run test:ai` or `npm run test:ai -- path/to/file.test.ts`
+## JavaScript
+
 - Unit test files are located alongside the file they test and are named `NAME.test.ts`
   - Example: Unit tests for `eggs.ts` would be in `eggs.test.ts`; tests for `Ham.vue` would be in `Ham.test.ts`
-- Unit tests use vitest version 4. Review the [config](../vitest.config.ts) to understand how they work.
-  - When testing `main` or `common` code, review [vitest.setup.node.ts](../vitest.setup.node.ts)
-  - When testing `renderer` or `preload` code, review [vitest.setup.web.ts](../vitest.setup.web.ts)
-  - These setup files contain a `beforeEach` statement which resets all mocks between tests
 - Only functions, classes, and components are unit tested; DO NOT test constants.
 - Unit test files contain a top-level `describe` for each relevant export
   - `describe` statements for classes should contain nested `describe` statements for each public function.
@@ -17,3 +14,9 @@
 - NEVER change the code being tested; ALWAYS ASK the human to make the change.
 - Balance thoroughness with maintenance; avoid having too many tests and consider combining test cases that are simple and related
 
+## Presenter (TODO: Move to Presenter's Claude.md)
+
+- Unit tests use vitest version 4. Review the vitest.config.ts to understand how they work.
+  - When testing `main` or `common` code, review vitest.setup.node.ts
+  - When testing `renderer` or `preload` code, review vitest.setup.web.ts
+  - These setup files contain a `beforeEach` statement which resets all mocks between tests

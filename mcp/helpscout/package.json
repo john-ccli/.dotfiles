@@ -1,0 +1,13 @@
+{
+  "name": "helpscout-mcp",
+  "private": true,
+  "type": "module",
+  "description": "Minimal HelpScout MCP for triage: read conversations, add internal notes.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  }
+}

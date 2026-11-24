@@ -1,0 +1,3 @@
+- NEVER try to use "git add"
+- NEVER try to use "git commit"
+- NEVER try to use "git stash"
