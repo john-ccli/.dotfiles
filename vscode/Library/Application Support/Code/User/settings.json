@@ -12,7 +12,6 @@
   "files.autoSaveWorkspaceFilesOnly": true,
   "files.autoSaveWhenNoErrors": true,
   "files.autoSave": "afterDelay",
-  "vitest.cliArguments": " --config vite.renderer.config.ts --coverage",
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
@@ -26,8 +25,6 @@
   "editor.tabSize": 2,
   "files.autoSaveDelay": 3000,
   "diffEditor.ignoreTrimWhitespace": false,
-  "vitest.workspaceConfig": "vitest.config.ts",
-  "vitest.rootConfig": "vitest.config.ts",
   "github.copilot.nextEditSuggestions.eagerness": "low",
   "git.replaceTagsWhenPull": true,
   "todo-tree.ripgrep.ripgrep": "/opt/homebrew/bin/rg",
@@ -50,4 +47,5 @@
   "makefile.configureOnOpen": true,
   "claudeCode.preferredLocation": "panel",
   "claudeCode.hideOnboarding": true,
+  "git-blame.config.showBlameInline": true,
 }
